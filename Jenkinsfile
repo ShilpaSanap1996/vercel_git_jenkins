@@ -22,7 +22,7 @@ pipeline{
         }
         stage('deploy'){
             steps{
-                bat 'npx vercel --prod --token=I0UZD6wNfcrmw7WEzEMqlYU8 --yes'
+                bat 'npx vercel --prod --token=u0CNsTZYDheRUiKh0mKtGbGQ --yes'
 
             }
         }
